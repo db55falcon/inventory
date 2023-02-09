@@ -2,35 +2,7 @@ import csv
 import datetime
 import pathlib
 
-"""You are building a simple inventory management system for a store. Your program should have the 
-following features:
 
-User can add new products to the inventory
-User can view the entire inventory
-User can update existing products in the inventory
-User can delete products from the inventory
-User can search for products in the inventory by name
-Here's an example of how the program should work:"""
-
-
-# should look like this
-
-"""Welcome to the inventory management system!
-
-What would you like to do?
-1. Add a new product
-2. View the entire inventory
-3. Update a product
-4. Delete a product
-5. Search for a product
-6. Exit
-
-Enter your choice: 1
-
-Enter the name of the product: Apple
-Enter the price: 1.99
-Enter the quantity: 20
-Product has been added to the inventory."""
 
 INVENTORY = "./inventory.csv"
 INVALID = "./invalid.txt"
